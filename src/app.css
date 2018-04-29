@@ -1,0 +1,11 @@
+html {
+  outline: none;
+}
+
+::selection {
+  background: transparent; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: transparent; /* Gecko Browsers */
+}

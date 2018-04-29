@@ -21,11 +21,23 @@
 .App-intro {
   font-size: large;
 }
-.fill { 
+.fill {
     height: 400;
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+html {
+  outline: none;
+}
+
+::selection {
+  background: rgba(255,255,255,0.12); /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: rgba(255,255,255,0.12); /* Gecko Browsers */
 }

@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=?Montserrat:300,600, 900);
+
+#hero.container-fluid {
+  background-color: #2a292e;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  z-index: -10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+#hero .inner.container-fluid,
+#hero .inner.container {
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  height: 100%;
+}
+
+#hero .inner * {
+  z-index: 10;
+}
+#hero .row {
+  margin: 3rem auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#hero .col {
+  padding: 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+}
+#hero .col h1 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  display: inline;
+  width: auto;
+  color: #fff;
+  margin-bottom: 8rem;
+}
+
+#hero .col h1 strong {
+  font-family: Raleway, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #f7b08c;
+}
+#hero .col p {
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+#hero .col p.small {
+  font-size: 1rem;
+}
+#hero .col p.emphasize {
+  font-size: 1.5rem;
+}
+#hero .col p {
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 3px #000000;
+}
+
+#hero .col img {
+  width: 16rem;
+  height: 16rem;
+}
+
+@media all and (max-width: 768px) {
+  #hero .col {
+    transform: scale(0.7);
+    width:130vw;
+  }
+
+  #hero .col h1 {
+    margin-bottom: 2rem;
+  }
+
+  #hero .col p.small {
+    font-size: 1.5rem;
+  }
+
+  #hero .col img {
+    width: 10rem;
+    height: 10rem;
+  }
+}
