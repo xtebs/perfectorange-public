@@ -1,5 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=?Montserrat:300,600, 900);
 
+#hero #particles-js-particles {
+  z-index: 1200;
+}
 #hero.container-fluid {
   background-color: #2a292e;
   background-repeat: no-repeat;

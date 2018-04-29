@@ -1,13 +1,9 @@
 import React from "react";
-import PropTypes from "prop-types";
 import heroBg from "../img/header-bg.jpg";
 import Particles from 'reactparticles.js';
 import "./hero.css";
 
 class Hero extends React.Component {
-  static propTypes = {
-    backgroundImage: PropTypes.string.isRequired
-  };
 
   constructor(props) {
     super(props);
