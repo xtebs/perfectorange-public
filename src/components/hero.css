@@ -83,7 +83,7 @@
 
 @media all and (max-width: 768px) {
   #hero .col {
-    transform: scale(0.7);
+    transform: scale(0.6);
     width:130vw;
   }
 

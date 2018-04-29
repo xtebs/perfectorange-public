@@ -1,3 +1,11 @@
+# Deploy!
+
+Run `npm run deploy` to deploy site to gh-pages. Do not forget the CNAME file in the /public folder.
+
+
+-----
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
